@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../Sign-Up-Form/Norse-Bold.otf);
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.plantaLogo {
+    width: 30%;
+    height: 100%;
+}
+
+#imgPlanta {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Norse-Bold;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.527);
+    position: absolute;
+    top: 25%;
+    width: 30%;
+    height: 20%;
+}
+
+#odin {
+    width: 20%;
+    height: 80%;
+}
+
+.container {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.container div:first-child{
+    background-color:whitesmoke;
+}
+
+.container > * {
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-right: 80px;
+}
+
+.inputs{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    gap: 5px;
+}
+
+input {
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #E5E7EB;
+    height: 20px;
+}
+
+input:focus{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+.containerInputs{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px 130px;
+}
+
+.footer{
+    background-color:whitesmoke;
+    margin-top: 30px;
+    margin-right: 0;
+    margin-top: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    color:green;
+}
+
+button {
+    height: 50px;
+    width: 140px;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #596D48;
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+}
+
+button:hover, button:focus {
+    background-color: #88c255;
+}
+
+button:active {
+    background-color: #65bd19;
+}
+
+h2{
+    color: darkslategray;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
